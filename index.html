@@ -1,28 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Font Awesome and Google Fonts-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">/
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous"
+      rel="stylesheet"
+    />
+    /
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-    <link rel="manifest" href="../site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <link rel="manifest" href="../site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Heading and logo-->
-    <h1 class="heading"><img class="logo" src="assets/images/logo-color300x300.png" alt="Trivia Time">Trivia Time</h1>
+    <h1 class="heading">
+      <img
+        class="logo"
+        src="assets/images/logo-color300x300.png"
+        alt="Trivia Time"
+      />Trivia Time
+    </h1>
+
+    <div>
+      <p>
+        Hello and welcome to Trivia Time. Are you excited to exercise your
+        brain? From geography to naming musicians, this general knowledge quiz
+        will have you on your toes. You think you've got what it takes? Well
+        let's find out!
+      </p>
+    </div>
+
+    <div>
+      <p>
+        Instructions: To play, click on the Get Started button below. This will
+        take you to our quiz page. The questions are set up with 4 multiple
+        choice questions to choose from. The bottom of the page will display how
+        many questions you have gotten correct and how many you have gotten
+        incorrect. When you have s=chosen your answer, click on the 'next
+        quetsion' button which will take you to the next question. At the end of
+        the quiz, you will be taken to our score page with your results. Good
+        luck!
+      </p>
+    </div>
+
+    <div class="next-button-container">
+      <button onclick="handleGeneralKnowledge()">General Knowledge</button>
+    </div>
+
+    <div>
+      <p>
+        Welcome to our General Knowledge Quiz! This is a platform designed to
+        test your comprehensive understanding of various subjects. We aim to
+        provide an engaging and challenging experience, with questions that span
+        across different domains of knowledge. Our goal is to stimulate your
+        brain, challenge your assumptions, and uncover areas where you might
+        need to brush up your skills.
+      </p>
+    </div>
+
+    <div class="next-button-container">
+      <button onclick="handleMusic()">Music</button>
+    </div>
+
+    <div>
+      <p>
+        Welcome to our exciting music quiz! This fun-filled game will test your
+        knowledge and love for music. You'll be presented with short clips of
+        songs, and your task is to identify them by listening to the tunes. The
+        quiz covers a wide range of genres and eras, so whether you're a fan of
+        rock, pop, jazz, classical, or any other genre, you'll find plenty of
+        challenges to keep you engaged. So, let's dive right in and see how well
+        you know your favorite tunes!
+      </p>
+    </div>
+
+    <div class="next-button-container">
+      <button onclick="handleMovies()">Movies</button>
+    </div>
+
+    <div>
+      <p>
+        Welcome to our exciting movie quiz! This quiz is designed to test your
+        knowledge and understanding of a wide range of films, from classic
+        blockbusters to indie gems. We'll ask you questions about everything
+        from famous quotes and memorable scenes to the stories behind the
+        creation of these cinematic masterpieces. So, whether you're a die-hard
+        film buff or just enjoy a good flick, this quiz is perfect for you.
+        Let's dive right in and see how much you know about the world of cinema!
+      </p>
+    </div>
+
+   
+
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
