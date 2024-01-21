@@ -56,11 +56,59 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="game-area.html">Game Area</a></li>
+        <li><a href="results.html">How Did You Score?</a></li>
         <li><a href="sign-up.html">Sign Up</a></li>
       </ul>
     </nav>
 
-    
+    <form>
+      <div class="formContainer">
+        <h1>Sign Up Form</h1>
+        <hr />
+        <h4>
+          <i class="fas fa-solid fa-question"></i>Did you know? The human brain
+          contains approximately one hundred billion neurons, and it's a common
+          myth that humans only use 10 percent of our brain. In reality, we use
+          all of it, even more than 10 percent when we sleep.
+        </h4>
+
+        <h4>
+          Well done for whizzing through our trivia quiz. Thank you for
+          participating in our trivia quiz! To continue enjoying such
+          activities, you may want to consider signing up for an account. This
+          will allow you to track your progress, participate in future quizzes.
+        </h4>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required />
+        <label for="surname"><b>Surname</b></label>
+        <input
+          type="text"
+          placeholder="Enter Surname"
+          name="surname"
+          required
+        />
+        <label for="email"><b>E-mail Address</b></label>
+        <input type="email" placeholder="Email Address" name="email" required />
+      </div>
+
+      <div>
+        <input type="radio" id="option 1" name="option" value="text" />
+        <label for="option1"
+          >I would like to be alerted to when new quizzes are placed up on your
+          site.</label
+        >
+
+        <input type="radio" id="option 1" name="option" value="text" />
+        <label for="option1"
+          >I would like to receive your monthly newsletter.</label
+        >
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
 
     <script src="assets/js/script.js"></script>
   </body>
