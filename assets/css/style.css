@@ -1,0 +1,63 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.logo,
+.heading {
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+
+}
+
+#nav-list {
+    margin-bottom: 1em;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+h1,
+h3 {
+    text-align: center;
+
+}
+
+p {
+    padding: 10px;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width:576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width:792px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
