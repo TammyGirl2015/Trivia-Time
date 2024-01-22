@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Trivia Time! Exercise your brain with our trivia quizzes on various topics."
+    />
+
     <!--Font Awesome and Google Fonts-->
     <link
       rel="stylesheet"
@@ -15,26 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous"
       rel="stylesheet"
     />
-    /
 
-    <!--Favicon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="../favicon-16x16.png"
-    />
     <link rel="manifest" href="../site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
@@ -44,6 +30,7 @@
     <title>Trivia Time!</title>
     <link rel="icon" href="assets/images/favicon/favicon.ico" />
   </head>
+
   <body>
     <!--Heading and logo-->
     <h1 class="heading">
@@ -54,15 +41,15 @@
       />
     </h1>
 
-    <div id="nav">
-    <nav>
-      <ul id="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="game-area.html">Game Area</a></li>
-        <li><a href="results.html">How Did You Score?</a></li>
-        <li><a href="sign-up.html">Sign Up</a></li>
-      </ul>
-    </nav>
+    <div id="nav" class="navbar">
+      <nav>
+        <ul id="nav-list" class="navbar-styles">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="game-area.html">Game Area</a></li>
+          <li><a href="results.html">How Did You Score?</a></li>
+          <li><a href="sign-up.html">Sign Up</a></li>
+        </ul>
+      </nav>
     </div>
 
     <div>
@@ -90,10 +77,11 @@
     </div>
 
     <div class="next-button-container">
-      <button onclick="handleGeneralKnowledge()">General Knowledge</button>
+      <button id="generalKnowledgeButton">General Knowledge</button>
     </div>
 
     <div>
+      <span id="gk-img"></span>
       <p>
         Welcome to our General Knowledge Quiz! This is a platform designed to
         test your comprehensive understanding of various subjects. We aim to
@@ -109,6 +97,7 @@
     </div>
 
     <div>
+      <span id="music-img"></span>
       <p>
         Welcome to our exciting music quiz! This fun-filled game will test your
         knowledge and love for music. You'll be presented with short clips of
@@ -125,6 +114,7 @@
     </div>
 
     <div>
+      <span id="movies-img"></span>
       <p>
         Welcome to our exciting movie quiz! This quiz is designed to test your
         knowledge and understanding of a wide range of films, from classic
