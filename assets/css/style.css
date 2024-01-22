@@ -53,7 +53,6 @@ li {
     justify-content: space-between;
     align-items: center;
     display: inline-block;
-    float: left;
     margin: 0;
     padding: 0;
 }
@@ -84,7 +83,4 @@ h3 {
     } */
 
     /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width:792px) {
-        #menu a:hover {
-            /* border-bottom: 1px solid #3a3a3a; */
-        }
+    @media screen and (min-width:792px) {}
