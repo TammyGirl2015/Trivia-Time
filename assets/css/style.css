@@ -61,7 +61,6 @@ li {
 h1,
 h3 {
     text-align: center;
-
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -76,16 +75,16 @@ h3 {
 @media screen and (min-width:768px) {
 
     /* Header */
-    nav {
+    /* nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    }
+    } */
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width:792px) {
         #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
+            /* border-bottom: 1px solid #3a3a3a; */
         }

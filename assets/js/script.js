@@ -1,12 +1,17 @@
 let currentQuestion = 0;
-const questions = ["A group of crows is called a...", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8", "Question 9", "Question 10"];
+const questions = ["What do you call a group of crows?", "Compared to their body weight, what is the strongest animal?", "Which is the only body part that is fully grown from birth?", "In what country was Elon Musk born?", "How many hearts does an octopus have?", "What planet is closest to the sun?", "Where is the strongest muscle located?", "What phone company produced the 3310?", "How many dots appear on a pair of dice?", "What country has the most islands?"];
 
 const options = [
-    [
-        "Option 1.1",
-        "Option 2.1",
-        "Option 3.1"
-    ]
+    ["group", "herd", "murder"],
+    ["Dung beetle", "Elephant", "Ant"],
+    ["heart", "fingernails", "eyes"],
+    ["Colorado", "South Africa", "Italy"],
+    ["3", "1", "4"],
+    ["Mercury", "Venus", "Mars"],
+    ["Arms", "Heart", "Jaw"],
+    ["Samsung", "Blackberry", "Nokia"],
+    ["36", "48", "42"],
+    ["Sweden", "Jamaica", "Zanzibar"],
 ];
 
 function PreviousQuestion(questionNumber) {
